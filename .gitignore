@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.python-version
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Data
+data/raw/*
+data/processed/*
+data/benchmark/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/benchmark/.gitkeep
+
+# Model weights and indexes
+models/
+checkpoints/
+vector_db/
+*.safetensors
+*.bin
+
+# Experiments
+logs/
+mlruns/
+experiments/runs/
+
+# Notebook
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
