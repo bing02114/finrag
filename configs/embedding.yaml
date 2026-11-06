@@ -1,0 +1,17 @@
+
+model:
+  name: BAAI/bge-m3
+  device: auto
+  trust_remote_code: false
+
+embedding:
+  batch_size: 64
+  normalize_embeddings: true
+  show_progress_bar: false
+
+  # 先使用 Sentence Transformers 模型默认最大长度
+  # 后续结合真实年报 Chunk 再确定是否调整
+  max_seq_length: null
+
+storage:
+  model_cache: /root/.cache/huggingface
