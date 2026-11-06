@@ -9,6 +9,9 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "numpy>=2.5.4",
+    "pydantic>=2.14.3",
+    "pydantic-settings>=2.16.2",
+    "python-dotenv>=1.2.4",
     "torch==2.8.0",
 ]
 
@@ -26,3 +29,12 @@ explicit = true
 
 [tool.uv.sources]
 torch = { index = "pytorch-cu128" }
+
+[dependency-groups]
+embedding = [
+    "sentence-transformers>=6.2.0",
+]
+retrieval = [
+    "qdrant-client>=1.20.0",
+    "rank-bm25>=0.2.2",
+]
