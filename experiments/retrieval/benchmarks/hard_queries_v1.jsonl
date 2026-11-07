@@ -1,0 +1,12 @@
+{"id": "H01", "query": "直流±800千伏变压器乙炔含量达到多少微升/升属于重大隐患？", "category": "exact_term", "gold_children": ["D01_第五条:5"], "verification_status": "pending"}
+{"id": "H02", "query": "220千伏以上新能源场站的低电压穿越能力有什么要求？", "category": "exact_term", "gold_children": ["D01_第五条:4"], "verification_status": "pending"}
+{"id": "H03", "query": "500千伏以上变电站的GIS设备基础沉降量超过多少毫米属于重大隐患？", "category": "exact_term", "gold_children": ["D01_第五条:6"], "verification_status": "pending"}
+{"id": "H04", "query": "风力发电站遇到电网电压骤降时无法维持并网运行，会被认定为严重安全隐患吗？", "category": "paraphrase", "gold_children": ["D01_第五条:4"], "verification_status": "pending"}
+{"id": "H05", "query": "大型发电机没有按照规定进行无功吸收能力测试，是否违反隐患判定标准？", "category": "paraphrase", "gold_children": ["D01_第五条:3"], "verification_status": "pending"}
+{"id": "H06", "query": "汽轮机主汽阀动作不顺畅，可能卡住，这种情况是否属于重大隐患？", "category": "paraphrase", "gold_children": ["D01_第六条:0"], "verification_status": "pending"}
+{"id": "H07", "query": "变压器基础倾斜超过标准，而不是气体含量异常，应查哪一项？", "category": "hard_negative", "gold_children": ["D01_第五条:6"], "verification_status": "pending"}
+{"id": "H08", "query": "发电机组未配置电力系统稳定器，与未开展进相试验，前者属于哪一项？", "category": "hard_negative", "gold_children": ["D01_第五条:2"], "verification_status": "pending"}
+{"id": "H09", "query": "汽轮机转速飞升的应急措施缺失属于哪项隐患？", "category": "hard_negative", "gold_children": ["D01_第六条:1"], "verification_status": "pending"}
+{"id": "H10", "query": "变压器乙炔超标和基础沉降超标分别对应什么重大隐患条件？", "category": "multi_evidence", "gold_children": ["D01_第五条:5", "D01_第五条:6"], "verification_status": "pending"}
+{"id": "H11", "query": "新能源场站并网能力不足与发电机组未开展进相试验分别有什么判定要求？", "category": "multi_evidence", "gold_children": ["D01_第五条:4", "D01_第五条:3"], "verification_status": "pending"}
+{"id": "H12", "query": "汽轮机阀门卡涩与缺少转速飞升应急措施分别如何判定？", "category": "multi_evidence", "gold_children": ["D01_第六条:0", "D01_第六条:1"], "verification_status": "pending"}

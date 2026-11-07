@@ -1,0 +1,149 @@
+[
+  {
+    "id": "H10",
+    "gold": [
+      "D01_第五条:5",
+      "D01_第五条:6"
+    ],
+    "queries": [
+      "变压器乙炔超标对应什么重大隐患条件？",
+      "变压器基础沉降超标对应什么重大隐患条件？"
+    ],
+    "baseline": {
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:6",
+        "D01_第五条:5",
+        "D01_第十一条:3",
+        "D01_第十条:3",
+        "D01_第十二条:0"
+      ],
+      "latency": 0.11796955403406173,
+      "candidate_count": 20
+    },
+    "decomposed": {
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:6",
+        "D01_第五条:5",
+        "D01_第五条:3",
+        "D01_第十一条:3",
+        "D01_第五条:7"
+      ],
+      "latency": 0.10250432800967246,
+      "candidate_count": 20
+    },
+    "baseline_metrics": {
+      "hit1": 1,
+      "recall": 1.0,
+      "all_hit": 1,
+      "mrr": 1.0
+    },
+    "decomposed_metrics": {
+      "hit1": 1,
+      "recall": 1.0,
+      "all_hit": 1,
+      "mrr": 1.0
+    }
+  },
+  {
+    "id": "H11",
+    "gold": [
+      "D01_第五条:4",
+      "D01_第五条:3"
+    ],
+    "queries": [
+      "新能源场站并网能力不足的判定要求是什么？",
+      "发电机组未开展进相试验的判定要求是什么？"
+    ],
+    "baseline": {
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:3",
+        "D01_第五条:4",
+        "D01_第十一条:0",
+        "D01_第五条:2",
+        "D01_第六条:3"
+      ],
+      "latency": 0.06528251199051738,
+      "candidate_count": 20
+    },
+    "decomposed": {
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:3",
+        "D01_第五条:4",
+        "D01_第六条:3",
+        "D01_第六条:1",
+        "D01_第十一条:0"
+      ],
+      "latency": 0.10595771810039878,
+      "candidate_count": 20
+    },
+    "baseline_metrics": {
+      "hit1": 1,
+      "recall": 1.0,
+      "all_hit": 1,
+      "mrr": 1.0
+    },
+    "decomposed_metrics": {
+      "hit1": 1,
+      "recall": 1.0,
+      "all_hit": 1,
+      "mrr": 1.0
+    }
+  },
+  {
+    "id": "H12",
+    "gold": [
+      "D01_第六条:0",
+      "D01_第六条:1"
+    ],
+    "queries": [
+      "汽轮机阀门卡涩如何判定？",
+      "汽轮机缺少转速飞升应急措施如何判定？"
+    ],
+    "baseline": {
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第六条:1",
+        "D01_第六条:0",
+        "D01_第十三条:3",
+        "D01_第六条:2",
+        "D01_第七条:2"
+      ],
+      "latency": 0.06333125906530768,
+      "candidate_count": 20
+    },
+    "decomposed": {
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第六条:1",
+        "D01_第六条:0",
+        "D01_第十三条:3",
+        "D01_第七条:2",
+        "D01_第六条:2"
+      ],
+      "latency": 0.10116197005845606,
+      "candidate_count": 20
+    },
+    "baseline_metrics": {
+      "hit1": 1,
+      "recall": 1.0,
+      "all_hit": 1,
+      "mrr": 1.0
+    },
+    "decomposed_metrics": {
+      "hit1": 1,
+      "recall": 1.0,
+      "all_hit": 1,
+      "mrr": 1.0
+    }
+  }
+]

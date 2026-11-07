@@ -1,0 +1,278 @@
+[
+  {
+    "id": "H01",
+    "category": "exact_term",
+    "original_query": "直流±800千伏变压器乙炔含量达到多少微升/升属于重大隐患？",
+    "rewritten_query": "直流±800千伏变压器乙炔含量达到多少微升/升属于重大隐患？",
+    "changed": false,
+    "latency": 1.1809,
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 201,
+      "total_tokens": 231,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 201
+    }
+  },
+  {
+    "id": "H02",
+    "category": "exact_term",
+    "original_query": "220千伏以上新能源场站的低电压穿越能力有什么要求？",
+    "rewritten_query": "220千伏以上新能源场站的低电压穿越能力有什么要求？",
+    "changed": false,
+    "latency": 0.8959,
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 196,
+      "total_tokens": 221,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 196
+    }
+  },
+  {
+    "id": "H03",
+    "category": "exact_term",
+    "original_query": "500千伏以上变电站的GIS设备基础沉降量超过多少毫米属于重大隐患？",
+    "rewritten_query": "500千伏以上变电站的GIS设备基础沉降量超过多少毫米属于重大隐患？",
+    "changed": false,
+    "latency": 1.1151,
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 200,
+      "total_tokens": 229,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 200
+    }
+  },
+  {
+    "id": "H04",
+    "category": "paraphrase",
+    "original_query": "风力发电站遇到电网电压骤降时无法维持并网运行，会被认定为严重安全隐患吗？",
+    "rewritten_query": "风力发电站遇到电网电压骤降时无法维持并网运行，是否会被认定为严重安全隐患？",
+    "changed": true,
+    "latency": 1.0534,
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 204,
+      "total_tokens": 237,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 204
+    }
+  },
+  {
+    "id": "H05",
+    "category": "paraphrase",
+    "original_query": "大型发电机没有按照规定进行无功吸收能力测试，是否违反隐患判定标准？",
+    "rewritten_query": "大型发电机未按照规定进行无功吸收能力测试，是否违反隐患判定标准？",
+    "changed": true,
+    "latency": 1.2258,
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 199,
+      "total_tokens": 225,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 199
+    }
+  },
+  {
+    "id": "H06",
+    "category": "paraphrase",
+    "original_query": "汽轮机主汽阀动作不顺畅，可能卡住，这种情况是否属于重大隐患？",
+    "rewritten_query": "汽轮机主汽阀动作不顺畅、可能卡住的情况是否属于重大隐患？",
+    "changed": true,
+    "latency": 1.5955,
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 202,
+      "total_tokens": 230,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 202
+    }
+  },
+  {
+    "id": "H07",
+    "category": "hard_negative",
+    "original_query": "变压器基础倾斜超过标准，而不是气体含量异常，应查哪一项？",
+    "rewritten_query": "变压器基础倾斜超过标准（而非气体含量异常）时，应检查哪一项？",
+    "changed": true,
+    "latency": 1.2458,
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 199,
+      "total_tokens": 227,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 199
+    }
+  },
+  {
+    "id": "H08",
+    "category": "hard_negative",
+    "original_query": "发电机组未配置电力系统稳定器，与未开展进相试验，前者属于哪一项？",
+    "rewritten_query": "发电机组未配置电力系统稳定器与未开展进相试验，其中“未配置电力系统稳定器”属于哪一项？",
+    "changed": true,
+    "latency": 1.0508,
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 204,
+      "total_tokens": 242,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 204
+    }
+  },
+  {
+    "id": "H09",
+    "category": "hard_negative",
+    "original_query": "汽轮机转速飞升的应急措施缺失属于哪项隐患？",
+    "rewritten_query": "汽轮机转速飞升的应急措施缺失属于哪项隐患？",
+    "changed": false,
+    "latency": 0.8249,
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 197,
+      "total_tokens": 223,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 197
+    }
+  },
+  {
+    "id": "H10",
+    "category": "multi_evidence",
+    "original_query": "变压器乙炔超标和基础沉降超标分别对应什么重大隐患条件？",
+    "rewritten_query": "变压器乙炔超标对应什么重大隐患条件？变压器基础沉降超标对应什么重大隐患条件？",
+    "changed": true,
+    "latency": 1.1361,
+    "usage": {
+      "completion_tokens": 30,
+      "prompt_tokens": 198,
+      "total_tokens": 228,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 198
+    }
+  },
+  {
+    "id": "H11",
+    "category": "multi_evidence",
+    "original_query": "新能源场站并网能力不足与发电机组未开展进相试验分别有什么判定要求？",
+    "rewritten_query": "新能源场站并网能力不足的判定要求是什么？发电机组未开展进相试验的判定要求是什么？",
+    "changed": true,
+    "latency": 1.0571,
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 203,
+      "total_tokens": 237,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 203
+    }
+  },
+  {
+    "id": "H12",
+    "category": "multi_evidence",
+    "original_query": "汽轮机阀门卡涩与缺少转速飞升应急措施分别如何判定？",
+    "rewritten_query": "汽轮机阀门卡涩如何判定？缺少转速飞升应急措施如何判定？",
+    "changed": true,
+    "latency": 0.8634,
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 199,
+      "total_tokens": 228,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 199
+    }
+  }
+]

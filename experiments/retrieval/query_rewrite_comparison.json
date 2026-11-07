@@ -1,0 +1,545 @@
+[
+  {
+    "id": "H01",
+    "category": "exact_term",
+    "gold": [
+      "D01_第五条:5"
+    ],
+    "original": {
+      "query": "直流±800千伏变压器乙炔含量达到多少微升/升属于重大隐患？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:5",
+        "D01_第五条:8",
+        "D01_第五条:6",
+        "D01_第五条:0",
+        "D01_第五条:1"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.11679788294713944
+    },
+    "rewritten": {
+      "query": "直流±800千伏变压器乙炔含量达到多少微升/升属于重大隐患？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:5",
+        "D01_第五条:8",
+        "D01_第五条:6",
+        "D01_第五条:0",
+        "D01_第五条:1"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.06716779596172273
+    }
+  },
+  {
+    "id": "H02",
+    "category": "exact_term",
+    "gold": [
+      "D01_第五条:4"
+    ],
+    "original": {
+      "query": "220千伏以上新能源场站的低电压穿越能力有什么要求？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:4",
+        "D01_第五条:1",
+        "D01_第五条:6",
+        "D01_第六条:4",
+        "D01_第五条:3"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.06448779895436019
+    },
+    "rewritten": {
+      "query": "220千伏以上新能源场站的低电压穿越能力有什么要求？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:4",
+        "D01_第五条:1",
+        "D01_第五条:6",
+        "D01_第六条:4",
+        "D01_第五条:3"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.0650370049988851
+    }
+  },
+  {
+    "id": "H03",
+    "category": "exact_term",
+    "gold": [
+      "D01_第五条:6"
+    ],
+    "original": {
+      "query": "500千伏以上变电站的GIS设备基础沉降量超过多少毫米属于重大隐患？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:6",
+        "D01_第十二条:2",
+        "D01_第五条:3",
+        "D01_第十二条:0",
+        "D01_第十二条:1"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.06491070508491248
+    },
+    "rewritten": {
+      "query": "500千伏以上变电站的GIS设备基础沉降量超过多少毫米属于重大隐患？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:6",
+        "D01_第十二条:2",
+        "D01_第五条:3",
+        "D01_第十二条:0",
+        "D01_第十二条:1"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.06406354205682874
+    }
+  },
+  {
+    "id": "H04",
+    "category": "paraphrase",
+    "gold": [
+      "D01_第五条:4"
+    ],
+    "original": {
+      "query": "风力发电站遇到电网电压骤降时无法维持并网运行，会被认定为严重安全隐患吗？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:4",
+        "D01_第十四条:0",
+        "D01_第十二条:0",
+        "D01_第五条:2",
+        "D01_第五条:3"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.06539167102891952
+    },
+    "rewritten": {
+      "query": "风力发电站遇到电网电压骤降时无法维持并网运行，是否会被认定为严重安全隐患？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:4",
+        "D01_第十四条:0",
+        "D01_第十二条:0",
+        "D01_第五条:2",
+        "D01_第十二条:1"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.06795320904348046
+    }
+  },
+  {
+    "id": "H05",
+    "category": "paraphrase",
+    "gold": [
+      "D01_第五条:3"
+    ],
+    "original": {
+      "query": "大型发电机没有按照规定进行无功吸收能力测试，是否违反隐患判定标准？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第六条:3",
+        "D01_第五条:3",
+        "D01_第六条:1",
+        "D01_第六条:0",
+        "D01_第五条:2"
+      ],
+      "metrics": {
+        "hit1": 0,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 0.5
+      },
+      "rerank_latency": 0.06278049398679286
+    },
+    "rewritten": {
+      "query": "大型发电机未按照规定进行无功吸收能力测试，是否违反隐患判定标准？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:3",
+        "D01_第六条:3",
+        "D01_第六条:1",
+        "D01_第六条:0",
+        "D01_第五条:2"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.062468155985698104
+    }
+  },
+  {
+    "id": "H06",
+    "category": "paraphrase",
+    "gold": [
+      "D01_第六条:0"
+    ],
+    "original": {
+      "query": "汽轮机主汽阀动作不顺畅，可能卡住，这种情况是否属于重大隐患？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第六条:0",
+        "D01_第六条:1",
+        "D01_第二条:0",
+        "D01_第六条:2",
+        "D01_第十四条:0"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.0625753760104999
+    },
+    "rewritten": {
+      "query": "汽轮机主汽阀动作不顺畅、可能卡住的情况是否属于重大隐患？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第六条:0",
+        "D01_第六条:1",
+        "D01_第二条:0",
+        "D01_第六条:2",
+        "D01_第七条:2"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.06254272605292499
+    }
+  },
+  {
+    "id": "H07",
+    "category": "hard_negative",
+    "gold": [
+      "D01_第五条:6"
+    ],
+    "original": {
+      "query": "变压器基础倾斜超过标准，而不是气体含量异常，应查哪一项？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:6",
+        "D01_第五条:5",
+        "D01_第五条:8",
+        "D01_第十一条:3",
+        "D01_第三十五条:0"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.0656832690583542
+    },
+    "rewritten": {
+      "query": "变压器基础倾斜超过标准（而非气体含量异常）时，应检查哪一项？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:6",
+        "D01_第五条:5",
+        "D01_第五条:8",
+        "D01_第五条:7",
+        "D01_第三十五条:0"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.06663920101709664
+    }
+  },
+  {
+    "id": "H08",
+    "category": "hard_negative",
+    "gold": [
+      "D01_第五条:2"
+    ],
+    "original": {
+      "query": "发电机组未配置电力系统稳定器，与未开展进相试验，前者属于哪一项？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:3",
+        "D01_第五条:2",
+        "D01_第六条:3",
+        "D01_第六条:1",
+        "D01_第五条:4"
+      ],
+      "metrics": {
+        "hit1": 0,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 0.5
+      },
+      "rerank_latency": 0.06526486307848245
+    },
+    "rewritten": {
+      "query": "发电机组未配置电力系统稳定器与未开展进相试验，其中“未配置电力系统稳定器”属于哪一项？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:2",
+        "D01_第五条:3",
+        "D01_第六条:1",
+        "D01_第六条:3",
+        "D01_第六条:0"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.0705391860101372
+    }
+  },
+  {
+    "id": "H09",
+    "category": "hard_negative",
+    "gold": [
+      "D01_第六条:1"
+    ],
+    "original": {
+      "query": "汽轮机转速飞升的应急措施缺失属于哪项隐患？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第六条:1",
+        "D01_第六条:0",
+        "D01_第二条:0",
+        "D01_第十三条:3",
+        "D01_第六条:2"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.06612750398926437
+    },
+    "rewritten": {
+      "query": "汽轮机转速飞升的应急措施缺失属于哪项隐患？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第六条:1",
+        "D01_第六条:0",
+        "D01_第二条:0",
+        "D01_第十三条:3",
+        "D01_第六条:2"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.06601054593920708
+    }
+  },
+  {
+    "id": "H10",
+    "category": "multi_evidence",
+    "gold": [
+      "D01_第五条:5",
+      "D01_第五条:6"
+    ],
+    "original": {
+      "query": "变压器乙炔超标和基础沉降超标分别对应什么重大隐患条件？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:6",
+        "D01_第五条:5",
+        "D01_第十一条:3",
+        "D01_第十条:3",
+        "D01_第十二条:0"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.06542724103201181
+    },
+    "rewritten": {
+      "query": "变压器乙炔超标对应什么重大隐患条件？变压器基础沉降超标对应什么重大隐患条件？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:5",
+        "D01_第五条:6",
+        "D01_第五条:1",
+        "D01_第五条:8",
+        "D01_第十一条:3"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.06642349297180772
+    }
+  },
+  {
+    "id": "H11",
+    "category": "multi_evidence",
+    "gold": [
+      "D01_第五条:4",
+      "D01_第五条:3"
+    ],
+    "original": {
+      "query": "新能源场站并网能力不足与发电机组未开展进相试验分别有什么判定要求？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:3",
+        "D01_第五条:4",
+        "D01_第十一条:0",
+        "D01_第五条:2",
+        "D01_第六条:3"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.06523632304742932
+    },
+    "rewritten": {
+      "query": "新能源场站并网能力不足的判定要求是什么？发电机组未开展进相试验的判定要求是什么？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第五条:3",
+        "D01_第五条:4",
+        "D01_第十一条:0",
+        "D01_第五条:2",
+        "D01_第六条:3"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.06671263999305665
+    }
+  },
+  {
+    "id": "H12",
+    "category": "multi_evidence",
+    "gold": [
+      "D01_第六条:0",
+      "D01_第六条:1"
+    ],
+    "original": {
+      "query": "汽轮机阀门卡涩与缺少转速飞升应急措施分别如何判定？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第六条:1",
+        "D01_第六条:0",
+        "D01_第十三条:3",
+        "D01_第六条:2",
+        "D01_第七条:2"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.06296028196811676
+    },
+    "rewritten": {
+      "query": "汽轮机阀门卡涩如何判定？缺少转速飞升应急措施如何判定？",
+      "union_recall": 1.0,
+      "candidate_recall": 1.0,
+      "final": [
+        "D01_第六条:0",
+        "D01_第六条:1",
+        "D01_第十三条:3",
+        "D01_第七条:2",
+        "D01_第六条:2"
+      ],
+      "metrics": {
+        "hit1": 1,
+        "recall": 1.0,
+        "all_hit": 1,
+        "mrr": 1.0
+      },
+      "rerank_latency": 0.06246271694544703
+    }
+  }
+]
